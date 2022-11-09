@@ -14,7 +14,7 @@ class ICICI extends Bank
 {
 	int getinterestrates()
 	{
-		return 7;
+		return 6;
 	}
 }
 
@@ -22,7 +22,7 @@ class Canarabank extends Bank
 {
 	int getinterestrates()
 	{
-		return 6;
+		return 7;
 	}
 }
 
@@ -32,6 +32,7 @@ public class Abstraction
 	public static void main(String[] args) 
 	{
 		Bank b;
+			
 		b = new ICICI();
 		System.out.println("The Interest rates of ICICI Bank is :" + b.getinterestrates());
 		
